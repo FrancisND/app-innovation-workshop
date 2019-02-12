@@ -10,5 +10,9 @@ namespace ContosoMaintenance.WebAPI.Controllers
         public JobController(IConfiguration configuration) : base(configuration)
         {
         }
+		
+		public void Index
+		{
+		}
     }
 }
